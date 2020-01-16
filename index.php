@@ -17,7 +17,6 @@
                     url: url,
                     data: $("#formulario").serialize(),
                     success: function(data) {
-                        
                         $("#resultado").html(data);
                     }
                 });
